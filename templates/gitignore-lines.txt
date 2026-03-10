@@ -1,0 +1,3 @@
+# Marty — local-only session state
+QA_HANDOFF.md
+.marty-checkpoint.json
