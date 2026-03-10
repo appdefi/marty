@@ -1,5 +1,7 @@
 # Marty: ship code with agents that don't trust each other
 
+![Marty Supreme](https://camo.githubusercontent.com/a3c1f0fe63bdc45fc6a77ef5438188704f3e68a86a8563a8412e699da3a3a43b/68747470733a2f2f7777772e676f6c6464657262792e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032352f31322f4d617274792d53757072656d652e6a7067)
+
 *An adversarial build/review loop for multi-agent workspaces.*
 
 One agent builds. A different agent reviews. They go back and forth until the code is actually right.
