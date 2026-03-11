@@ -16,7 +16,7 @@ Once the project is set up and the scope is defined, a full session is one promp
 Execute sprint 1
 ```
 
-Marty handles the rest — build, review, fix, repeat, push.
+Marty handles the rest: build, review, fix, repeat, push.
 
 ## How It Works
 
@@ -244,12 +244,12 @@ On close, the file resets to the idle template.
 
 | File | Role |
 |------|------|
-| `.github/agents/marty.agent.md` | Coordinator — orchestrates the build→QA loop |
-| `.github/agents/builder.agent.md` | Builder — implements tasks, runs gates, commits |
-| `.github/agents/qa-reviewer.agent.md` | Reviewer — reviews diffs, writes findings or approval |
-| `scripts/hooks/check-qa-status.sh` | Stop hook — blocks exit while loop is active |
-| `scripts/hooks/resume-session.sh` | SessionStart hook — injects resume context after disconnect |
-| `QA_HANDOFF.md` | Handoff file — mediates status between agents |
+| `.github/agents/marty.agent.md` | Coordinator: orchestrates the build→QA loop |
+| `.github/agents/builder.agent.md` | Builder: implements tasks, runs gates, commits |
+| `.github/agents/qa-reviewer.agent.md` | Reviewer: reviews diffs, writes findings or approval |
+| `scripts/hooks/check-qa-status.sh` | Stop hook: blocks exit while loop is active |
+| `scripts/hooks/resume-session.sh` | SessionStart hook: injects resume context after disconnect |
+| `QA_HANDOFF.md` | Handoff file: mediates status between agents |
 | `.marty-checkpoint.json` | Auto-generated checkpoint (ephemeral, gitignored) |
 
 ## License
