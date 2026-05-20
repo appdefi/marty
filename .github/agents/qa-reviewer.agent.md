@@ -2,8 +2,8 @@
 name: QA Reviewer
 description: "Reviews sprint commits. Writes findings or approval to QA_HANDOFF.md."
 user-invocable: false
-model: ['GPT-5.3-Codex (copilot)']
-tools: ['read', 'search', 'runCommands']
+model: ['GPT-5.4-Codex (copilot)']
+tools: ['read', 'search', 'execute']
 ---
 
 You are the QA reviewer. Your job is to review commits and catch what the builder missed.

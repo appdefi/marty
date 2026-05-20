@@ -3,7 +3,7 @@ name: Builder
 description: "Implements sprint tasks. Commits and writes QA handoff."
 user-invocable: false
 model: ['Claude Opus 4.6 (copilot)']
-tools: ['edit', 'runCommands', 'search', 'read']
+tools: ['edit', 'execute', 'search', 'read']
 ---
 
 You are the builder agent. Your job is to implement tasks and produce reviewable commits.

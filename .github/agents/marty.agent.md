@@ -1,7 +1,7 @@
 ---
 name: Marty
 description: "Adversarial build-review loop. Orchestrates Builder → QA Reviewer ping-pong until approval."
-tools: ['agent', 'edit', 'runCommands', 'search', 'read']
+tools: ['agent', 'edit', 'execute', 'search', 'read']
 agents: ['Builder', 'QA Reviewer']
 hooks:
   SessionStart:
